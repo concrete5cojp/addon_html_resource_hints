@@ -1,0 +1,14 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HtmlResourceHints\\": "src/Concrete",
+      "HtmlResourceHints\\Tests\\": "tests/src/Concrete"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
